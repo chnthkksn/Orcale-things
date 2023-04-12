@@ -1,5 +1,10 @@
 # Root login enable script
 
+Iptables Remove - Enable all traffic
+```
+wget https://github.com/chnthkksn/Orcale-things/blob/main/iptablesfix.sh && chmod +x iptablesfix.sh && ./iptablesfix.sh && rm iptablesfix.sh
+```
+
 Run this as root 
 ```
 wget https://raw.githubusercontent.com/chnthkksn/Orcale-things/main/opts/root-enable.sh && chmod +x root-enable.sh && ./root-enable.sh && rm root-enable.sh
